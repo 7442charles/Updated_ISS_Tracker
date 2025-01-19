@@ -107,8 +107,8 @@ function updateISSPosition() {
     .catch(err => console.error("Error fetching ISS data:", err));
 }
 
-// Update the ISS position every 2 seconds
-setInterval(updateISSPosition, 2000);
+// Update the ISS position every 5 seconds
+setInterval(updateISSPosition, 5000);
 
 // Adding the Earth rotation speed indicator (Arrow)
 const arrowLength = 2;

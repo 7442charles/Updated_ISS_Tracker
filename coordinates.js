@@ -64,4 +64,4 @@ function updateISSPosition() {
 }
 
 // Update the ISS position every 3 seconds
-setInterval(updateISSPosition, 3000);
+setInterval(updateISSPosition, 5000);
