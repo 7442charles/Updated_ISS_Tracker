@@ -43,7 +43,7 @@ function getCountryFromCoordinates(latitude, longitude) {
           <img src="${countryInfo.flag}" alt="${countryInfo.name} flag" style="width:20px; height:auto; margin-left:5px;">
         `;
       } else {
-        document.getElementById("country").textContent = "Country: oversea 😝";
+        document.getElementById("country").textContent = "Country: over the sea 😝";
       }
     })
     .catch(err => console.error("Error fetching country data:", err));
